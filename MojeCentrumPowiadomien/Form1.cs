@@ -69,17 +69,38 @@ namespace MojeCentrumPowiadomien
 
         private void checkBoxPolicja_CheckedChanged(object sender, EventArgs e)
         {
-            naszaZmiennaDelegaty = DodanieInforamcjiDoOkienkaPolicji;
+            if (checkBoxPolicja.Checked)
+            {
+                naszaZmiennaDelegaty += DodanieInforamcjiDoOkienkaPolicji;
+            }
+            else
+            {
+                naszaZmiennaDelegaty -= DodanieInforamcjiDoOkienkaPolicji;
+            }
         }
 
         private void checkBox3StrazPozarna_CheckedChanged(object sender, EventArgs e)
         {
-            naszaZmiennaDelegaty = DodanieInforamcjiDoOkienkaStrazyPozarnej;
+            if (checkBox3StrazPozarna.Checked)
+            {
+                naszaZmiennaDelegaty += DodanieInforamcjiDoOkienkaStrazyPozarnej;
+            }
+            else
+            {
+                naszaZmiennaDelegaty -= DodanieInforamcjiDoOkienkaStrazyPozarnej;
+            }
         }
 
         private void checkBoxPogotowieMedyczne_CheckedChanged(object sender, EventArgs e)
         {
-            naszaZmiennaDelegaty = DodanieInforamcjiDoOkienkaPogotowiaMedycznego;
+            if (checkBoxPogotowieMedyczne.Checked)
+            {
+                naszaZmiennaDelegaty += DodanieInforamcjiDoOkienkaPogotowiaMedycznego;
+            }
+            else
+            {
+                naszaZmiennaDelegaty -= DodanieInforamcjiDoOkienkaPogotowiaMedycznego;
+            }
         }
 
         private void clearPolicja_Click(object sender, EventArgs e)

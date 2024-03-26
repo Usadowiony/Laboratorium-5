@@ -58,20 +58,23 @@
             // 
             // btnSend
             // 
+            this.btnSend.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnSend.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.btnSend.Location = new System.Drawing.Point(232, 94);
             this.btnSend.Name = "btnSend";
             this.btnSend.Size = new System.Drawing.Size(89, 28);
             this.btnSend.TabIndex = 3;
             this.btnSend.Text = "Wyślij";
-            this.btnSend.UseVisualStyleBackColor = true;
+            this.btnSend.UseVisualStyleBackColor = false;
             this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(52, 177);
+            this.label1.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Location = new System.Drawing.Point(52, 176);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 13);
+            this.label1.Size = new System.Drawing.Size(42, 16);
             this.label1.TabIndex = 4;
             this.label1.Text = "Policja";
             // 
@@ -87,9 +90,10 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label4.Location = new System.Drawing.Point(45, 46);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(88, 13);
+            this.label4.Size = new System.Drawing.Size(93, 16);
             this.label4.TabIndex = 11;
             this.label4.Text = "Treść zgłoszenia";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -113,9 +117,10 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(439, 177);
+            this.label2.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label2.Location = new System.Drawing.Point(439, 176);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(108, 13);
+            this.label2.Size = new System.Drawing.Size(118, 16);
             this.label2.TabIndex = 14;
             this.label2.Text = "Pogotowie medyczne";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -142,9 +147,10 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(246, 177);
+            this.label3.Font = new System.Drawing.Font("Arial Narrow", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label3.Location = new System.Drawing.Point(246, 176);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(72, 13);
+            this.label3.Size = new System.Drawing.Size(79, 16);
             this.label3.TabIndex = 17;
             this.label3.Text = "Straż pożarna";
             // 
@@ -161,32 +167,41 @@
             // 
             // clearPolicja
             // 
+            this.clearPolicja.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.clearPolicja.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.clearPolicja.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.clearPolicja.Location = new System.Drawing.Point(52, 213);
             this.clearPolicja.Name = "clearPolicja";
             this.clearPolicja.Size = new System.Drawing.Size(89, 21);
             this.clearPolicja.TabIndex = 19;
             this.clearPolicja.Text = "Wyczyść";
-            this.clearPolicja.UseVisualStyleBackColor = true;
+            this.clearPolicja.UseVisualStyleBackColor = false;
             this.clearPolicja.Click += new System.EventHandler(this.clearPolicja_Click);
             // 
             // clearStrazPozarna
             // 
+            this.clearStrazPozarna.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.clearStrazPozarna.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.clearStrazPozarna.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.clearStrazPozarna.Location = new System.Drawing.Point(246, 213);
             this.clearStrazPozarna.Name = "clearStrazPozarna";
             this.clearStrazPozarna.Size = new System.Drawing.Size(89, 21);
             this.clearStrazPozarna.TabIndex = 20;
             this.clearStrazPozarna.Text = "Wyczyść";
-            this.clearStrazPozarna.UseVisualStyleBackColor = true;
+            this.clearStrazPozarna.UseVisualStyleBackColor = false;
             this.clearStrazPozarna.Click += new System.EventHandler(this.clearStrazPozarna_Click);
             // 
             // clearPogotowieRatownicze
             // 
+            this.clearPogotowieRatownicze.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
+            this.clearPogotowieRatownicze.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.clearPogotowieRatownicze.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.clearPogotowieRatownicze.Location = new System.Drawing.Point(439, 213);
             this.clearPogotowieRatownicze.Name = "clearPogotowieRatownicze";
             this.clearPogotowieRatownicze.Size = new System.Drawing.Size(89, 21);
             this.clearPogotowieRatownicze.TabIndex = 21;
             this.clearPogotowieRatownicze.Text = "Wyczyść";
-            this.clearPogotowieRatownicze.UseVisualStyleBackColor = true;
+            this.clearPogotowieRatownicze.UseVisualStyleBackColor = false;
             this.clearPogotowieRatownicze.Click += new System.EventHandler(this.clearPogotowieRatownicze_Click);
             // 
             // Form1

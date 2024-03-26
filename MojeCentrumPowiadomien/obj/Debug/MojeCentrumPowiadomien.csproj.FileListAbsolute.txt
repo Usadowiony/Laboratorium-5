@@ -8,3 +8,13 @@ D:\Users\wojciech.pietrzak\source\repos\MojeCentrumPowiadomien\MojeCentrumPowiad
 D:\Users\wojciech.pietrzak\source\repos\MojeCentrumPowiadomien\MojeCentrumPowiadomien\obj\Debug\MojeCentrumPowiadomien.csproj.CoreCompileInputs.cache
 D:\Users\wojciech.pietrzak\source\repos\MojeCentrumPowiadomien\MojeCentrumPowiadomien\obj\Debug\MojeCentrumPowiadomien.exe
 D:\Users\wojciech.pietrzak\source\repos\MojeCentrumPowiadomien\MojeCentrumPowiadomien\obj\Debug\MojeCentrumPowiadomien.pdb
+D:\Users\wojciech.pietrzak\Source\Repos\Laboratorium-5\MojeCentrumPowiadomien\bin\Debug\MojeCentrumPowiadomien.exe.config
+D:\Users\wojciech.pietrzak\Source\Repos\Laboratorium-5\MojeCentrumPowiadomien\bin\Debug\MojeCentrumPowiadomien.exe
+D:\Users\wojciech.pietrzak\Source\Repos\Laboratorium-5\MojeCentrumPowiadomien\bin\Debug\MojeCentrumPowiadomien.pdb
+D:\Users\wojciech.pietrzak\Source\Repos\Laboratorium-5\MojeCentrumPowiadomien\obj\Debug\MojeCentrumPowiadomien.csproj.AssemblyReference.cache
+D:\Users\wojciech.pietrzak\Source\Repos\Laboratorium-5\MojeCentrumPowiadomien\obj\Debug\MojeCentrumPowiadomien.Form1.resources
+D:\Users\wojciech.pietrzak\Source\Repos\Laboratorium-5\MojeCentrumPowiadomien\obj\Debug\MojeCentrumPowiadomien.Properties.Resources.resources
+D:\Users\wojciech.pietrzak\Source\Repos\Laboratorium-5\MojeCentrumPowiadomien\obj\Debug\MojeCentrumPowiadomien.csproj.GenerateResource.cache
+D:\Users\wojciech.pietrzak\Source\Repos\Laboratorium-5\MojeCentrumPowiadomien\obj\Debug\MojeCentrumPowiadomien.csproj.CoreCompileInputs.cache
+D:\Users\wojciech.pietrzak\Source\Repos\Laboratorium-5\MojeCentrumPowiadomien\obj\Debug\MojeCentrumPowiadomien.exe
+D:\Users\wojciech.pietrzak\Source\Repos\Laboratorium-5\MojeCentrumPowiadomien\obj\Debug\MojeCentrumPowiadomien.pdb
